@@ -1,9 +1,12 @@
 import { createStore } from "vuex";
 
+import dashboardIndex from "./dashboard/index";
+
 export default createStore({
-  state: {},
   getters: {},
   mutations: {},
   actions: {},
-  modules: {},
+  modules: {
+    dashboardIndex,
+  },
 });
